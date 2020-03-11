@@ -1,7 +1,7 @@
 .global lab1
 .syntax unified
 #define A #3
-#define B #2
+#define B #1
 lab1:
     push {lr}
     // calculate 
@@ -11,7 +11,7 @@ lab1:
     mov r1, #1
 //b
     mov r2, #2
-//2
+//1
     mov r3, B
 //3
     mov r4, A
